@@ -1,0 +1,34 @@
+slice_name: Device_repartition
+description: null
+certified_by: null
+certification_details: null
+viz_type: treemap_v2
+params:
+  datasource: 32__table
+  viz_type: treemap_v2
+  groupby:
+  - name
+  - DeviceModel
+  metric: count
+  row_limit: 10000
+  adhoc_filters:
+  - clause: WHERE
+    subject: last_communication
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  color_scheme: supersetColors
+  show_labels: true
+  show_upper_labels: true
+  label_type: key_value
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  extra_form_data: {}
+  dashboards: []
+query_context: '{"datasource":{"id":32,"type":"table"},"force":false,"queries":[{"filters":[{"col":"last_communication","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["name","DeviceModel"],"metrics":["count"],"annotation_layers":[],"row_limit":10000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"32__table","viz_type":"treemap_v2","groupby":["name","DeviceModel"],"metric":"count","row_limit":10000,"adhoc_filters":[{"clause":"WHERE","subject":"last_communication","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"color_scheme":"supersetColors","show_labels":true,"show_upper_labels":true,"label_type":"key_value","number_format":"SMART_NUMBER","date_format":"smart_date","extra_form_data":{},"dashboards":[],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 74a58f59-b07b-49d1-8612-8f6dd6985cd2
+version: 1.0.0
+dataset_uuid: 09e0699d-0924-4f7b-a088-99553fef093f

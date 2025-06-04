@@ -1,0 +1,381 @@
+dashboard_title: Projet_Airbus
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 03db5572-8b5c-4140-8193-857931ce335d
+position:
+  CHART-E3xbdbUji6uJy7uDoDr6V:
+    children: []
+    id: CHART-E3xbdbUji6uJy7uDoDr6V
+    meta:
+      chartId: 392
+      height: 50
+      sliceName: User_table
+      uuid: 8e3f822e-d509-4631-994e-bbfc36ead24d
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    - ROW-7b65i7MioO6ekfpNDXlmw
+    type: CHART
+  CHART-EWvMVtq1ewBq5VFohmLUD:
+    children: []
+    id: CHART-EWvMVtq1ewBq5VFohmLUD
+    meta:
+      chartId: 391
+      height: 49
+      sliceName: Device_repartition
+      uuid: 74a58f59-b07b-49d1-8612-8f6dd6985cd2
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    - ROW-s5jmd3vZsDbNuvkXK9xm5
+    type: CHART
+  CHART-i1iLYKJtt-10aNU5NeqX9:
+    children: []
+    id: CHART-i1iLYKJtt-10aNU5NeqX9
+    meta:
+      chartId: 390
+      height: 50
+      sliceName: Device_name
+      uuid: e1828ea3-6f8b-412b-9543-47c45059a165
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    - ROW-7b65i7MioO6ekfpNDXlmw
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Projet_Airbus
+    type: HEADER
+  ROOT_ID:
+    children:
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    id: ROOT_ID
+    type: ROOT
+  ROW-7b65i7MioO6ekfpNDXlmw:
+    children:
+    - CHART-i1iLYKJtt-10aNU5NeqX9
+    - CHART-E3xbdbUji6uJy7uDoDr6V
+    id: ROW-7b65i7MioO6ekfpNDXlmw
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    type: ROW
+  ROW-s5jmd3vZsDbNuvkXK9xm5:
+    children:
+    - CHART-EWvMVtq1ewBq5VFohmLUD
+    id: ROW-s5jmd3vZsDbNuvkXK9xm5
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    type: ROW
+  TAB-NyZE66QvU9lTfX_u99d1o:
+    children: []
+    id: TAB-NyZE66QvU9lTfX_u99d1o
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Company
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    type: TAB
+  TAB-f9IpR5iK7-rx8PtST26h5:
+    children:
+    - ROW-s5jmd3vZsDbNuvkXK9xm5
+    - ROW-7b65i7MioO6ekfpNDXlmw
+    id: TAB-f9IpR5iK7-rx8PtST26h5
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Device
+    parents:
+    - ROOT_ID
+    - TABS-vPuEI4RPoHOqtKP8ojWVZ
+    type: TAB
+  TABS-vPuEI4RPoHOqtKP8ojWVZ:
+    children:
+    - TAB-f9IpR5iK7-rx8PtST26h5
+    - TAB-NyZE66QvU9lTfX_u99d1o
+    id: TABS-vPuEI4RPoHOqtKP8ojWVZ
+    meta: {}
+    parents:
+    - ROOT_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '390':
+      id: 390
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 391
+        - 392
+    '391':
+      id: 391
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 390
+        - 392
+    '392':
+      id: 392
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 390
+        - 391
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 390
+    - 391
+    - 392
+  map_label_colors:
+    '562': '#9EE5E5'
+    motorola: '#A1A6BD'
+    blackberry: '#454E7C'
+    samsung: '#FEC0A1'
+    ? ''
+    : '#1FA8C9'
+    asus: '#3CCCCB'
+    apple: '#EFA1AA'
+    Sony: '#E04355'
+    LGE: '#A1A6BD'
+    OnePlus: '#ACE1C4'
+    bq: '#A38F79'
+    ZTE: '#8FD3E4'
+    BullittGroupLimited: '#FCC700'
+    HUAWEI: '#666666'
+    WIKO: '#D1C6BC'
+    TCL: '#D3B3DA'
+    ZUK: '#A868B7'
+    HTC: '#E04355'
+    count: '#1FA8C9'
+    Z3: '#5AC189'
+    LEAP: '#FF7F44'
+    Passport: '#666666'
+    DTEK50: '#E04355'
+    Q10: '#FCC700'
+    Classic: '#A868B7'
+    Q5: '#3CCCCB'
+    Passport Silver Edition: '#A38F79'
+    Z30: '#8FD3E4'
+    PRIV: '#A1A6BD'
+    Z10: '#ACE1C4'
+    SM-N920I: '#B2B2B2'
+    Galaxy S7 Edge: '#EFA1AA'
+    Galaxy J3: '#FDE380'
+    SM-T815: '#D3B3DA'
+    SM-T710: '#9EE5E5'
+    SM-J200F: '#D1C6BC'
+    SM-N9200: '#454E7C'
+    SM-G903F: '#5AC189'
+    SM-N7505: '#FF7F44'
+    Galaxy S6 Edge+: '#666666'
+    Galaxy Xcover 3: '#E04355'
+    SM-J111F: '#FCC700'
+    SM-N9100: '#A868B7'
+    SM-G850F: '#3CCCCB'
+    Galaxy Note Edge: '#A38F79'
+    SM-A910F: '#8FD3E4'
+    SM-J700F: '#A1A6BD'
+    SM-T580: '#ACE1C4'
+    SM-J710F: '#FEC0A1'
+    Galaxy S6: '#B2B2B2'
+    Galaxy S7: '#EFA1AA'
+    Galaxy S4: '#FDE380'
+    Galaxy Note3: '#D3B3DA'
+    SM-T810: '#9EE5E5'
+    Galaxy S6 Edge: '#D1C6BC'
+    Galaxy S5 Mini: '#D1C6BC'
+    Galaxy J5: '#454E7C'
+    SM-P905: '#5AC189'
+    SM-T819: '#FF7F44'
+    Galaxy A5: '#666666'
+    Galaxy A3: '#E04355'
+    SM-E700H: '#FCC700'
+    Galaxy S5: '#A868B7'
+    SM-J120FN: '#3CCCCB'
+    SM-G531F: '#A38F79'
+    SM-N930F: '#8FD3E4'
+    Galaxy Core Prime: '#A1A6BD'
+    Galaxy Note4: '#ACE1C4'
+    SM-A710F: '#FEC0A1'
+    Galaxy A8: '#B2B2B2'
+    iPad 4G: '#FDE380'
+    iPhone 6s: '#D3B3DA'
+    iPad Mini 2 (Wi-Fi/Cellular): '#9EE5E5'
+    iPad Mini 3 (Wi-Fi/Cellular): '#9EE5E5'
+    iPad2 3G: '#D1C6BC'
+    iPad Air (Wi-Fi/Cellular): '#454E7C'
+    iPhone 5c (GSM): '#5AC189'
+    iPad Mini 2 (Wi-Fi): '#FF7F44'
+    iPhone 7: '#666666'
+    iPad Pro 9.7-Inch (Wi-Fi/Cellular): '#E04355'
+    iPhone 6 Plus: '#FCC700'
+    iPad Air 2 (Wi-Fi/Cellular): '#A868B7'
+    iPhone 4S: '#3CCCCB'
+    iPhone 5c (Global): '#A38F79'
+    iPad Air (Wi-Fi): '#8FD3E4'
+    iPad Mini 3: '#A1A6BD'
+    iPhone 5s (GSM): '#ACE1C4'
+    iPod touch (6th Gen): '#FEC0A1'
+    iPhone SE: '#B2B2B2'
+    iPad mini: '#EFA1AA'
+    iPad Wi-Fi: '#FDE380'
+    iPad Pro (Wi-Fi): '#D3B3DA'
+    iPhone 5 (CDMA/LTE): '#D3B3DA'
+    iPad with Retina display 4G: '#9EE5E5'
+    Apple iPad Pro 9.7-Inch (Wi-Fi Only): '#D1C6BC'
+    iPad2 Wi-Fi: '#454E7C'
+    iPhone 5 (GSM/LTE): '#5AC189'
+    iPhone 6s Plus: '#FF7F44'
+    iPad Pro (Wi-Fi/Cellular): '#666666'
+    iPad with Retina display Wi-Fi: '#E04355'
+    iPad Mini 4: '#FCC700'
+    iPhone 6: '#A868B7'
+    iPhone 5s (Global): '#3CCCCB'
+    iPhone 7 Plus: '#A38F79'
+    iPad Air 2: '#8FD3E4'
+    XT1562: '#ACE1C4'
+    XT1585: '#FEC0A1'
+    XT1039: '#B2B2B2'
+    XT1700: '#EFA1AA'
+    MotoE2(4G-LTE): '#FDE380'
+    XT1572: '#FDE380'
+    XT1022: '#D3B3DA'
+    XT1706: '#9EE5E5'
+    MotoG3: '#D1C6BC'
+    Moto G (4): '#454E7C'
+    XT1663: '#5AC189'
+    Nexus 6: '#FF7F44'
+    XT1635-02: '#666666'
+    XT1092: '#E04355'
+    Moto G Play: '#FCC700'
+    XT1068: '#A868B7'
+    ASUS_Z012D: '#A38F79'
+    ASUS_X007D: '#8FD3E4'
+    ASUS_X008D: '#A1A6BD'
+    ASUS_X013D: '#ACE1C4'
+    ASUS_Z010D: '#FEC0A1'
+    ASUS_Z00UD: '#B2B2B2'
+    ASUS_Z00AD: '#EFA1AA'
+    ASUS_T00J: '#EFA1AA'
+    ASUS_Z008D: '#FDE380'
+    ASUS_Z00ED: '#D3B3DA'
+    ASUS_Z00LD: '#9EE5E5'
+    RIDGE 4G: '#454E7C'
+    PULP 4G: '#5AC189'
+    PULP FAB 4G: '#FF7F44'
+    FEVER: '#666666'
+    E6833: '#FCC700'
+    E5823: '#A868B7'
+    F3111: '#3CCCCB'
+    E2303: '#A38F79'
+    C6603: '#8FD3E4'
+    E6553: '#A1A6BD'
+    E6533: '#ACE1C4'
+    D2303: '#FEC0A1'
+    Xperia Z1 Compact: '#B2B2B2'
+    Xperia Z2: '#B2B2B2'
+    C6833: '#EFA1AA'
+    E5333: '#FDE380'
+    E6883: '#D3B3DA'
+    E6683: '#9EE5E5'
+    E6653: '#D1C6BC'
+    C6802: '#454E7C'
+    F3311: '#5AC189'
+    E2333: '#FF7F44'
+    D6633: '#666666'
+    D6603: '#E04355'
+    E6633: '#FCC700'
+    F3112: '#A868B7'
+    F5321: '#3CCCCB'
+    D5803: '#A38F79'
+    E2363: '#8FD3E4'
+    LG-H815: '#ACE1C4'
+    LG-K430: '#FEC0A1'
+    LG-H850: '#FEC0A1'
+    LG-D405: '#B2B2B2'
+    Nexus 5X: '#EFA1AA'
+    Nexus 4: '#FDE380'
+    Nexus 5: '#D3B3DA'
+    LG-D855: '#9EE5E5'
+    LG-H840: '#D1C6BC'
+    LG-H525n: '#454E7C'
+    LG-K420: '#5AC189'
+    LG-X190: '#FF7F44'
+    LG-D802: '#666666'
+    HTC One S9: '#FCC700'
+    ZUK Z2121: '#3CCCCB'
+    Aquaris X5: '#8FD3E4'
+    Aquaris M5: '#A1A6BD'
+    Aquaris X5 Plus: '#ACE1C4'
+    ONE A2003: '#FEC0A1'
+    ONEPLUS A3003: '#B2B2B2'
+    ONE E1003: '#EFA1AA'
+    A0001: '#FDE380'
+    6070K: '#D1C6BC'
+    5045X: '#454E7C'
+    6045Y: '#5AC189'
+    6039K: '#FF7F44'
+    NEM-L21: '#E04355'
+    S50: '#A868B7'
+    S40: '#3CCCCB'
+    S60: '#A38F79'
+    ZTE A2017G: '#A1A6BD'
+    Blade S6: '#A1A6BD'
+    ZTE B2017G: '#ACE1C4'
+  color_scheme: ''
+  refresh_frequency: 0
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  shared_label_colors:
+  - blackberry
+  - samsung
+  - apple
+  - motorola
+  - asus
+  - WIKO
+  - Sony
+  - LGE
+  - HTC
+  - ZUK
+  - bq
+  - OnePlus
+  - TCL
+  - HUAWEI
+  - BullittGroupLimited
+  - ZTE
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+version: 1.0.0
